@@ -2,7 +2,7 @@ FROM    debian:stretch-slim
 
 LABEL   MAINTAINER="Martin Helmich <m.helmich@mittwald.de>"
 
-ARG     XTRABACKUP_VERSION="8.0.7-1"
+ARG     XTRABACKUP_VERSION="8.0.12-1"
 ENV     XTRABACKUP_TARGET_DIR="/target" \
         XTRABACKUP_SOURCE_DIR="/var/lib/mysql"
 
