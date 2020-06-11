@@ -1,6 +1,6 @@
 FROM    debian:stretch-slim
 
-LABEL   MAINTAINER="Martin Helmich <m.helmich@mittwald.de>"
+LABEL   MAINTAINER="dzero <dzd624175217@gmail.com>"
 
 ARG     XTRABACKUP_VERSION="8.0.12-1"
 ENV     XTRABACKUP_TARGET_DIR="/target" \
