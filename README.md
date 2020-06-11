@@ -17,4 +17,4 @@ Create a MariaDB container to backup first:
 
 Now start the xtrabackup container. You can mount a directory into the container's `/target` directory.
 
-    docker run --volumes-from my-database -v /var/backups/mysql:/target --rm martinhelmich/xtrabackup
+    docker run --volumes-from my-database -v /var/backups/mysql:/target --rm dzd624175217/percona-xtrabackup
